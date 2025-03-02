@@ -20,6 +20,6 @@ env = {
 }
 
 new PipelineStack(app,
-  `${deploymentEnvironment}-CI-'Pipeline-Stack'`,
+  `${deploymentEnvironment}-CI-Pipeline-Stack`,
   env 
 );
